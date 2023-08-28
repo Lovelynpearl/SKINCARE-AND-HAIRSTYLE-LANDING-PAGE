@@ -2619,6 +2619,24 @@ video {
   background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 640px) {
+  .home {
+    background-image: url(/image/skincare\ product.jpg);
+    background-size:cover;
+    background-position: center center;
+    width: 300%;
+    height: 100vh;
+  }
+
+  .hair {
+    background-image: url(/image/36068604-11cf-4ff4-b1eb-a4a33a2ad1d5.jpeg);
+    background-size:cover;
+    background-position: center center;
+    width: 300%;
+    height: 100vh;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -2702,6 +2720,10 @@ video {
     width: 1550px;
   }
 
+  .sm\:w-\[1570px\] {
+    width: 1570px;
+  }
+
   .sm\:w-\[388px\] {
     width: 388px;
   }
@@ -2780,6 +2802,10 @@ video {
 
   .lg\:w-\[1650\] {
     width: 1650;
+  }
+
+  .lg\:w-\[1650px\] {
+    width: 1650px;
   }
 
   .lg\:w-\[408px\] {
